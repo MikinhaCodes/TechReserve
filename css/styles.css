@@ -1,0 +1,40 @@
+/* css/styles.css — TechReserve Design System tokens & custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap');
+
+:root {
+  --surface: #131315;
+  --surface-container-low: #1b1b1d;
+  --surface-container: #201f21;
+  --surface-container-high: #2a2a2c;
+  --surface-container-highest: #353437;
+  --primary: #731717;
+  --primary-hover: #8e1e1e;
+  --secondary: #a82e2e;
+  --tertiary: #d19b53;
+  --on-surface: #e5e1e4;
+  --on-surface-variant: #ddc0bd;
+  --outline: #a58b88;
+  --outline-variant: #574240;
+  --status-confirmada: #1f7a4d;
+  --status-confirmada-text: #4ade80;
+  --status-em-uso: #731717;
+  --status-em-uso-text: #ff6b6b;
+  --status-no-show: #3a3c44;
+  --status-no-show-text: #71747f;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: 'Geist', sans-serif;
+  border-radius: 0 !important;
+}
+
+h1, h2, h3, h4, .font-headline {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Brutalist sharp edges */
+*, ::after, ::before {
+  border-radius: 0 !important;
+}
